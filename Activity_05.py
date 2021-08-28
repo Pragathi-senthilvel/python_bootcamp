@@ -1,15 +1,6 @@
-print("Enter five numbers a,b,c,d,e:")
-a,b,c,d,e = map(int, input().split())
-sum = 0
-for i in a,b,c,d,e:
-	sum = sum + int(i)
-print("Sum of all the numbers is =",sum)
-
-
-input_int = input("Enter five numbers a,b,c,d,e : ")
+input_int = input("Enter five numbers : ")
 list  = input_int.split()
-print("Sum of input list is: ")
 sum = 0
 for num in list:
     sum += int (num)
-print(sum)
+print("Sum of input list = ", sum)
