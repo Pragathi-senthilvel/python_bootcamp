@@ -9,5 +9,7 @@ print("Replaced list-2 : ",first_three)
 
 input_int = input("Enter five numbers : ")
 a_list = input_int.split()
-last_three = a_list[3:]
+last_three = a_list[-2:]
 print("Sliced list is : ", last_three)
+
+
