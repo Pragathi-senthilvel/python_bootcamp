@@ -3,4 +3,4 @@ a,b,c,d,e = map(int, input().split())
 sum = 0
 for i in a,b,c,d,e:
 	sum = sum + int(i)
-print("Sum of all the number is =",sum)
+print("Sum of all the numbers is =",sum)
