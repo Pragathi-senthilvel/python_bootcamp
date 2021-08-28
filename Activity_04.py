@@ -8,4 +8,4 @@ print (a, '+', b, '=',a+b)
 sum = a + b
 print("The sum of {0} and {1} is {2}".format(a, b, sum))
 
-print('The sum is %.1d' %(int(input('Enter first number: ')) + int(input('Enter second number: '))))
+print('The sum is %d' %(int(input('Enter first number: ')) + int(input('Enter second number: '))))
