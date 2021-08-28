@@ -8,8 +8,8 @@ print("Sum of all the numbers is =",sum)
 
 input_int = input("Enter five numbers a,b,c,d,e : ")
 list  = input_int.split()
-print("Calculating sum of input list")
+print("Sum of input list is: ")
 sum = 0
 for num in list:
     sum += int (num)
-print("Sum = ",sum)
+print(sum)
