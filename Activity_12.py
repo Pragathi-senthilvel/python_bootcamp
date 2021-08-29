@@ -1,13 +1,12 @@
-def input_num():
-    start=int(input("Enter the start number:"))
-    stop=int(input("Enter the stop number:"))
-    return start,stop
-def odd(start,stop):
-    for num in range(start,stop):
-        if num % 2 !=0:
-            print(num,end = ", ")
-def main():
-    a,b=input_num()
-    odd(a,b)
-main()
+a,b,c=input("Enter three numbers number: ").split()
+if (a > b) and (a > c):
+   greatest = a
+elif (b > a) and (b > c):
+   greatest = b
+else:
+   greatest = c
+ 
+print("{0} is the greatest number among {1}, {2} and {3}".format(greatest,a,b,c))
+
+
   
