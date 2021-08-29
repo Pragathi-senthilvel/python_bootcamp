@@ -1,8 +1,9 @@
 import math
-def takeinput():
-    dim=input("Enter the length l, breadth b and height h of the tromboloid: ").split(" ")
-    dim=[float(i) for i in dim]
-    return dim[0],dim[1],dim[2]
+def takeinput():                                               
+    l = float(input("Enter the length of tromboloid: "))
+    b = float(input("Enter the breadth of tromboloid: "))
+    h = float(input("Enter the height of tromboloid: "))
+    return l, b, h
 
 def calculate(l,b,h): 
     k=(l**2)+(b**2)+(h**2)
