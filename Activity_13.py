@@ -16,4 +16,3 @@ def main():
     odd_nos=oddnos(start,stop)
     display(odd_nos)
 main()
-
