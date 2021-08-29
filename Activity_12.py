@@ -14,5 +14,5 @@ def big(a,b,c):
 def main():
     x,y,z=input_num()
     greatest=big(x,y,z)
-    print("{0}is the greatest number among {1},{2} and {3}".format(greatest,x,y,z))
+    print("{0} is the greatest number among {1} , {2} and {3}".format(greatest,x,y,z))
 main()
