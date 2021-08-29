@@ -1,12 +1,17 @@
 def input_num():
-    start=int(input("Enter the start number:"))
-    stop=int(input("Enter the stop number:"))
+    start=int(input("Enter the start number: "))
+    stop=int(input("Enter the stop number: "))
     return start,stop
-def odd(start,stop):
-    for num in range(start,stop):
-        if num % 2 !=0:
-            print(num,end = ", ")
+
+def displayodd(start,stop):
+    odd=[*range(start,stop+1,2)]
+    print(*odd,sep="\n")
+   
 def main():
-    a,b=input_num()
-    odd(a,b)
+    start,stop=input_num()
+    if start % 2 ==0:
+            start=start+1
+            
+    displayodd(start,stop)
+    
 main()
