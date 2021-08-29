@@ -1,17 +1,19 @@
 def input_num():
-    start=int(input("Enter the start number: "))
-    stop=int(input("Enter the stop number: "))
+    start=int(input("enter the start number: "))
+    stop=int(input("enter the stop number: "))
     return start,stop
+def oddnos(start,stop):
+    res=[]
+    for num in range(start,stop):
+        if(num%2!=0):
+            res.append(num)
+    return res
+def display(odd_nos):
+    print("Odd numbers from start number to stop number is: ",odd_nos)
 
-def displayodd(start,stop):
-    odd=[*range(start,stop+1,2)]
-    print(*odd,sep="\n")
-   
 def main():
     start,stop=input_num()
-    if start % 2 ==0:
-            start=start+1
-            
-    displayodd(start,stop)
-    
+    odd_nos=oddnos(start,stop)
+    display(odd_nos)
 main()
+
